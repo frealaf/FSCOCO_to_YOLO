@@ -1,0 +1,5 @@
+ultralytics>=8.0.0  # YOLOv8
+fiftyone>=0.20.0    # Dataset visualization
+opencv-python       # Image processing
+albumentations      # Data augmentation
+pyyaml              # YAML file parsing
