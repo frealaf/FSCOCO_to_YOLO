@@ -18,25 +18,27 @@ Let’s get started!
    	- Install the required libraries: should be in requirements.txt
    	  
 3. Dataset Preparation
-   
-	3.1 Download the FSOCO Dataset: Download the bounding boxes version from the FSOCO website.
-   		- Extract the dataset and ensure the directory structure matches:
-   		- `fsoco`/
-		- `train`/
-			- `annotations`
-   			- `images`
-   *Organized files = Happy training!*
-   
- 	3.2 Convert COCO to YOLO Format: Run the coco_to_yolov.py script *this script takes the COCO-style annotations and converts them into YOLO-style .txt files.*
 
-   	3.3 Split into Train and Validation Sets: Run the split_train_val.py script to split the dataset into train and val directories   
-		- `yolo_dataset`/
-			- `train`/
-				- `images`/
-   				- `labels`/
-  			 - `val`/
-				- `images`/
-   				- `labels`/
+3.1 Download the FSOCO Dataset: Download the bounding boxes version from the FSOCO website.
+   - Extract the dataset and ensure the directory structure matches:
+     - `fsoco`
+       - `train`
+         - `annotations`
+         - `images`
+
+   *Organized files = Happy training!*
+
+3.2 Convert COCO to YOLO Format: Run the `coco_to_yolov.py` script.
+   *This script takes the COCO-style annotations and converts them into YOLO-style `.txt` files.*
+
+3.3 Split into Train and Validation Sets: Run the `split_train_val.py` script to split the dataset into train and val directories.
+   - `yolo_dataset`
+     - `train`
+       - `images`
+       - `labels`
+     - `val`
+       - `images`
+       - `labels`
 
 **4. Data Augmentation**
 The data augmentation process is currently ongoing. 
