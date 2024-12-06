@@ -1,0 +1,9 @@
+# Paths to the training and validation image directories
+train: /Users/pedrotrindade/Documents/LART/yolo_dataset/train/images
+val: /Users/pedrotrindade/Documents/LART/yolo_dataset/val/images
+
+# Number of classes
+nc: 5 # Replace this with the number of unique classes in dataset
+
+# Class names
+names: [unknown_cone, yellow_cone, blue_cone, orange_cone, large_orange_cone]  # Replace with class names
