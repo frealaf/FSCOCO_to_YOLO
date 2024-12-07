@@ -1,6 +1,6 @@
 # Paths to the training and validation image directories
-train: /Users/pedrotrindade/Documents/LART/yolo_dataset/train/images
-val: /Users/pedrotrindade/Documents/LART/yolo_dataset/val/images
+train: path/to/yolo_dataset/train/images  # Update this to the training images directory
+val: path/to/yolo_dataset/val/images  # Update this to the validation images directory
 
 # Number of classes
 nc: 5 # Replace this with the number of unique classes in dataset
