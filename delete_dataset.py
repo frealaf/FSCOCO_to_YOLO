@@ -8,8 +8,8 @@ if "fsoco-train" in fo.list_datasets():
 # Recreate the dataset
 dataset = fo.Dataset.from_dir(
     dataset_type=fo.types.COCODetectionDataset,
-    data_path="/Users/pedrotrindade/Documents/LART/fsoco/train/images",
-    labels_path="/Users/pedrotrindade/Documents/LART/fsoco/train/annotations/fsoco.json",
+    data_path="path/to/train/images",  # Update this to the path of your training images
+    labels_path="path/to/train/annotations/fsoco.json",  # Update this to the path of your annotations file
     name="fsoco-train"
 )
 
