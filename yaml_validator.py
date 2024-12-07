@@ -2,7 +2,7 @@ import yaml
 import os
 
 # Path to your dataset.yaml
-yaml_path = "/Users/pedrotrindade/Documents/LART/fsoco_sanitizer/dataset.yaml"
+yaml_path = "path/to/dataset.yaml"  # Update this to the path of your dataset.yaml file
 
 # Validate YAML
 with open(yaml_path, "r") as file:
