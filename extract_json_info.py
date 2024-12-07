@@ -1,7 +1,7 @@
 import json
 
 # Path to the COCO annotations file
-coco_annotations = "/Users/pedrotrindade/Documents/LART/fsoco/train/annotations/fsoco.json"
+coco_annotations = "path/to/train/annotations/fsoco.json"  # Update this to the path of your COCO annotations file
 
 # Load the annotations
 with open(coco_annotations, "r") as f:
