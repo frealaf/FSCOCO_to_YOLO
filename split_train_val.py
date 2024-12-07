@@ -3,10 +3,10 @@ import random
 import shutil
 
 # Paths
-train_images_dir = "/Users/pedrotrindade/Documents/LART/yolo_dataset/train/images"
-train_labels_dir = "/Users/pedrotrindade/Documents/LART/yolo_dataset/train/labels"
-val_images_dir = "/Users/pedrotrindade/Documents/LART/yolo_dataset/val/images"
-val_labels_dir = "/Users/pedrotrindade/Documents/LART/yolo_dataset/val/labels"
+train_images_dir = "path/to/yolo_dataset/train/images"  # Update this to your training images directory
+train_labels_dir = "path/to/yolo_dataset/train/labels"  # Update this to your training labels directory
+val_images_dir = "path/to/yolo_dataset/val/images"  # Update this to your validation images directory
+val_labels_dir = "path/to/yolo_dataset/val/labels"  # Update this to your validation labels directory
 
 # Create validation directories if not exist
 os.makedirs(val_images_dir, exist_ok=True)
