@@ -7,3 +7,33 @@ nc: 5 # Replace this with the number of unique classes in dataset
 
 # Class names
 names: [unknown_cone, yellow_cone, blue_cone, orange_cone, large_orange_cone]  # Replace with class names
+
+# Hyperparameters
+hyp:
+  lr0: 0.01       # Initial learning rate
+  lrf: 0.2        # Final learning rate
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  box: 7.5        # Box loss gain
+  cls: 0.5        # Class loss gain
+  cls_pw: 1.0     # Class confidence gain
+  obj: 1.0        # Object loss gain
+  obj_pw: 1.0     # Object confidence gain
+  iou_t: 0.2      # IoU training threshold
+  anchor_t: 4.0   # Anchor-matching threshold
+  fl_gamma: 0.0   # Focal Loss gamma
+  hsv_h: 0.015    # Hue augmentation (range 0–1)
+  hsv_s: 0.7      # Saturation augmentation (range 0–1)
+  hsv_v: 0.4      # Brightness augmentation (range 0–1)
+  degrees: 0.0    # Image rotation degrees (±)
+  translate: 0.1  # Image translation (± fraction)
+  scale: 0.5      # Image scale (± gain)
+  shear: 0.0      # Image shear (± gain)
+  perspective: 0.0 # Image perspective (± fraction)
+  flipud: 0.0     # Vertical flip probability
+  fliplr: 0.5     # Horizontal flip probability
+  mosaic: 1.0     # Mosaic augmentation probability
+  mixup: 0.0      # MixUp augmentation probability
