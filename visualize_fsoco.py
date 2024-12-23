@@ -5,8 +5,8 @@ fo.config.show_progress_bars = True
 fo.config.debug = True
 
 # Paths to the dataset
-train_images_dir = "/Users/pedrotrindade/Documents/LART/fsoco/train/images"
-train_annotations_path = "/Users/pedrotrindade/Documents/LART/fsoco/train/annotations/fsoco.json"
+train_images_dir = "path/to/train/images"  # Update this to the path of your training images directory
+train_annotations_path = "path/to/train/annotations/fsoco.json"  # Update this to the path of your annotations file
 
 # Load the dataset into FiftyOne
 dataset = fo.Dataset.from_dir(

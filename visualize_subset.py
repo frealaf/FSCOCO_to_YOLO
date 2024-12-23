@@ -5,8 +5,8 @@ fo.config.show_progress_bars = True
 fo.config.debug = True
 
 # Paths to the dataset
-train_images_dir = "/Users/pedrotrindade/Documents/LART/fsoco_sanitizer/test_subset/images"
-train_annotations_path = "/Users/pedrotrindade/Documents/LART/fsoco_sanitizer/test_subset/annotations/fsoco.json"
+train_images_dir = "path/to/test_subset/images"  # Update this to the path of your test subset images directory
+train_annotations_path = "path/to/test_subset/annotations/fsoco.json"  # Update this to the path of your annotations file
 
 # Load the dataset into FiftyOne
 dataset = fo.Dataset.from_dir(

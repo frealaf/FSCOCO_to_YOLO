@@ -3,9 +3,9 @@ import json
 from shutil import copyfile
 
 # Paths
-coco_annotations = "/Users/pedrotrindade/Documents/LART/fsoco/train/annotations/fsoco.json"
-images_dir = "/Users/pedrotrindade/Documents/LART/fsoco/train/images"
-output_dir = "/Users/pedrotrindade/Documents/LART/yolo_dataset"
+coco_annotations = "path/to/annotations/fsoco.json"  # Update this to the COCO annotations file path
+images_dir = "path/to/annotations/fsoco.json"  # Update this to the COCO annotations file path
+output_dir = "path/to/output/yolo_dataset"  # Update this to your desired output directory
 
 # Create YOLO directory structure
 os.makedirs(os.path.join(output_dir, "train", "images"), exist_ok=True)

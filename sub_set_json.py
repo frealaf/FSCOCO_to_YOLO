@@ -2,9 +2,9 @@ import json
 import os
 
 # Paths to your dataset
-original_annotations_path = "/Users/pedrotrindade/Documents/LART/fsoco/train/annotations/fsoco.json"
-subset_images_dir = "/Users/pedrotrindade/Documents/LART/fsoco_sanitizer/test_subset/images"
-output_annotations_path = "/Users/pedrotrindade/Documents/LART/fsoco_sanitizer/test_subset/annotations/fsoco.json"
+original_annotations_path = "path/to/train/annotations/fsoco.json"  # Update this to the path of your original COCO annotations file
+subset_images_dir = "path/to/test_subset/images"  # Update this to the directory containing the subset images
+output_annotations_path = "path/to/test_subset/annotations/fsoco.json"  # Update this to the output path for the smaller annotations file
 
 # Get the filenames of the subset images
 subset_filenames = set(os.listdir(subset_images_dir))
